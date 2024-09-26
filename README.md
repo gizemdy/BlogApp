@@ -30,11 +30,11 @@ Bu özellikler, blog sitesinin yönetimini ve kontrolünü kolaylaştırmak amac
 3. Veritabanınızı yapılandırmak için `database.sql` dosyasını MySQL sunucunuza yükleyin.
 4. Tarayıcınızda proje dizinine giderek giriş yapabilir ve blog sitenizi kullanmaya başlayabilirsiniz.
 
-### Admin Paneline Giriş
+### Admin Paneline Giriş 
 1. Admin paneline erişmek için `admin/` dizinine gidin.
 2. Admin giriş bilgileri:
-   - Kullanıcı Adı: `admin`
-   - Şifre: `admin123`
+   - Kullanıcı Adı: `****`
+   - Şifre: `****`
 
 Bu giriş bilgilerini `user` tablosundan güncelleyebilir veya değiştirebilirsiniz.
 
