@@ -1,13 +1,12 @@
 # Blog Sitesi Projesi
 
-Bu proje, kullanıcıların blog yazıları oluşturabileceği, yönetebileceği ve diğer kullanıcılar ile etkileşimde bulunabileceği basit bir **Blog Sitesi** uygulamasıdır. Projede bir **Admin Paneli** mevcuttur. Admin paneli üzerinden bloglar, kullanıcılar ve yorumlar yönetilebilir.
+Bu proje, admin tarafından blog yazıları oluşturabileceği, yönetebileceği ve kullanıcıların yorumda bulunabileceği basit bir **Blog Sitesi** uygulamasıdır. Projede bir **Admin Paneli** mevcuttur. Admin paneli üzerinden bloglar, kullanıcılar ve yorumlar yönetilebilir.
 
 ## Özellikler
 
 ### Genel Özellikler
-- Kullanıcılar blog gönderileri oluşturabilir, güncelleyebilir ve silebilir.
-- Her kullanıcı siteye üye olup, giriş yaptıktan sonra blog yazabilir ve diğer kullanıcıların yazılarına yorum yapabilir.
-- Kullanıcılar, diğer kullanıcıların yazdığı blog gönderilerini görebilir ve yorum yapabilirler.
+- Admin blog gönderileri oluşturabilir, güncelleyebilir ve silebilir.
+- Her kullanıcı siteye üye olup, giriş yaptıktan sonra yorum yazabilir.
 
 ### Admin Paneli
 Admin paneli, sadece site yöneticilerinin erişebildiği bir arayüzdür. Burada adminler:
