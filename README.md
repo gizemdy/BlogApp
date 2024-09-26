@@ -36,7 +36,7 @@ Bu özellikler, blog sitesinin yönetimini ve kontrolünü kolaylaştırmak amac
    - Kullanıcı Adı: `****`
    - Şifre: `****`
 
-Bu giriş bilgilerini `user` tablosundan güncelleyebilir veya değiştirebilirsiniz.
+Bu giriş bilgilerini `users` tablosundan güncelleyebilir veya değiştirebilirsiniz.
 
 ### Admin Paneli Özellikleri
 - **Blog Listesi**: Mevcut blogları listeleyebilir, düzenleyebilir ve silebilirsiniz.
@@ -44,7 +44,7 @@ Bu giriş bilgilerini `user` tablosundan güncelleyebilir veya değiştirebilirs
 - **Yorum Listesi**: Bloglara yapılmış tüm yorumları görebilir ve silebilirsiniz.
 
 ### Kullanıcı İşlemleri
-- Kullanıcılar, siteye üye olduktan sonra blog yazabilir, bloglara yorum yapabilir ve kendi yazılarını düzenleyebilir.
+- Kullanıcılar, siteye üye olduktan sonra bloglara yorum yapabilir.
 
 ## Proje Dosya Yapısı
 
