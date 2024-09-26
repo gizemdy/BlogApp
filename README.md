@@ -53,7 +53,7 @@ Bu giriş bilgilerini `users` tablosundan güncelleyebilir veya değiştirebilir
 - **uploads/**: Blog gönderilerine eklenen dosyaların depolandığı klasör.
 - **user/**: Kullanıcı girişi, kayıt ve çıkış işlemleri.
 - **index.php**: Anasayfa dosyası.
-
+- 
 ## Lisans
 Bu proje açık kaynaklıdır ve herhangi bir ticari amaçla kullanılabilir.
 
