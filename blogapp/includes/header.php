@@ -50,9 +50,8 @@ if ($user_logged_in) {
                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                         <?php if ($user_role === 'admin'): ?>
                             <a href="./admin/admin_dashboard.php" class="dropdown-item">Admin Panel</a>
-                        
-                        <a href="../user/logout.php" class="dropdown-item">Çıkış Yap</a>
                         <?php endif; ?>
+                        <a href="./user/logout.php" class="dropdown-item">Çıkış Yap</a>
                     </div>
                 </li>
                 <?php else: ?>
