@@ -1,5 +1,5 @@
 <?php
-if (session_status() == PHP_SESSION_NONE) {
+if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
@@ -16,7 +16,6 @@ if ($user_logged_in) {
     // Eğer 'user_role' varsa onu al, yoksa null yap
     $user_role = isset($_SESSION['role']) ? $_SESSION['role'] : null;
 }
-$page = isset($_GET['page']) ? $_GET['page'] : 'home';
 ?>
 
 
@@ -36,19 +35,9 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
-               
-                    <?php if ($user_logged_in): 
-                    
-                    // USERDAN VEYA ADMIN DASHBOARDDAN ANASAYFAYA YONLENDİRME 
-                    
-                    ?>
-                <li class="nav-item">
-                    <a href="../index.php" class="nav-link">Ana Sayfa</a>
-
-                    <?php if ($page === './admin/admin_dashboard.php'): ?>
-                        <a href="../index.php" class="nav-link">Ana Sayfa (Admin)</a>
-                    <?php endif; ?>
- 
+                <?php if ($user_logged_in): ?>
+                    <li class="nav-item">
+                        <a href="./index.php" class="nav-link">Ana Sayfa</a>
                     </li>
                 <?php endif; ?>
             </ul>
@@ -60,7 +49,8 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
                     </a>
                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                         <?php if ($user_role === 'admin'): ?>
-                        <a href="./admin/admin_dashboard.php" class="dropdown-item">Admin Panel</a>
+                            <a href="./admin/admin_dashboard.php" class="dropdown-item">Admin Panel</a>
+                        
                         <a href="../user/logout.php" class="dropdown-item">Çıkış Yap</a>
                         <?php endif; ?>
                     </div>
